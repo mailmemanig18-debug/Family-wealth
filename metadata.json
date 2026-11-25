@@ -1,0 +1,8 @@
+{
+  "name": "Family Wealth OS",
+  "description": "Comprehensive personal and family financial management, wealth tracking, budgeting, investment portfolio, and generational wealth platform for Indian households.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,1324 @@
+# FAMILY WEALTH OS
+## ULTIMATE MASTER DEVELOPMENT PROMPT
+### Complete Family Financial Management, Wealth Tracking & Generational Wealth Building Platform
+
+---
+
+# 1. YOUR ROLE
+
+Act as a senior software architect, full-stack developer, financial technology engineer, PostgreSQL database architect, UI/UX designer, security engineer and QA automation specialist.
+
+Your responsibility is to transform the EXISTING FAMILY BUSINESS OS application into a complete, production-ready application called:
+
+# FAMILY WEALTH OS
+
+Do not create a separate application unless technically necessary.
+
+Do not rebuild the application from scratch.
+
+First inspect the existing codebase, architecture, database, authentication, APIs, components and completed features. Then transform the existing application safely.
+
+You must work with the actual existing project, not generate a demonstration or prototype.
+
+---
+
+# 2. PROJECT VISION
+
+FAMILY WEALTH OS is a comprehensive personal and family financial management platform designed especially for middle-class Indian families.
+
+The mission is to help ordinary families manage money with the discipline and financial intelligence of wealthy families.
+
+The system must help families:
+
+- Track every rupee.
+- Understand where their money goes.
+- Manage multiple income sources.
+- Control household expenses.
+- Create realistic monthly budgets.
+- Build emergency savings.
+- Eliminate unnecessary debt.
+- Track investments.
+- Monitor assets and liabilities.
+- Plan children's education.
+- Plan home purchases.
+- Prepare for retirement.
+- Calculate family net worth.
+- Build long-term financial security.
+- Create generational wealth.
+
+Core philosophy:
+
+**Earn money. Control expenses. Save consistently. Eliminate bad debt. Invest wisely. Build assets. Protect your family. Create generational wealth.**
+
+The platform must work for families with monthly incomes of ₹15,000, ₹25,000, ₹40,000, ₹60,000, ₹1,00,000 and above.
+
+Never assume that a family needs a high income to benefit from wealth management.
+
+---
+
+# 3. FIRST TASK: AUDIT THE EXISTING APPLICATION
+
+Before making modifications, conduct a complete technical audit.
+
+Inspect:
+
+1. Frontend architecture.
+2. Backend architecture.
+3. Existing database.
+4. PostgreSQL connectivity.
+5. Database schema.
+6. Database migrations.
+7. Authentication.
+8. Authorization.
+9. API endpoints.
+10. Existing dashboards.
+11. Existing reusable components.
+12. Existing file uploads.
+13. Existing notifications.
+14. Existing financial functionality.
+15. Existing business-management functionality.
+16. Environment variables.
+17. Deployment configuration.
+18. Existing integrations.
+19. Error handling.
+20. Existing automated tests.
+
+Prepare an internal implementation plan.
+
+Preserve all useful completed features.
+
+Identify which existing business-specific features can be reused, migrated, hidden or safely retired.
+
+Never delete existing information without a backup and approved migration plan.
+
+---
+
+# 4. MAIN APPLICATION NAVIGATION
+
+Create the following main navigation.
+
+1. Overview Dashboard
+2. My Family
+3. Income
+4. Expenses
+5. Transactions
+6. Accounts & Banks
+7. Budget Planner
+8. Savings
+9. Emergency Fund
+10. Assets
+11. Investments
+12. Loans & Debts
+13. Financial Goals
+14. Financial Calculators
+15. Reports & Analytics
+16. Financial Intelligence
+17. Bills & Reminders
+18. Documents & Records
+19. AI Financial Assistant
+20. Security & Settings
+
+Navigation must be simple and understandable for ordinary families.
+
+Use collapsible sidebar navigation on desktop and mobile-friendly navigation on smaller screens.
+
+---
+
+# 5. FAMILY WEALTH DASHBOARD
+
+Build a professional financial command center.
+
+The dashboard must show actual data from the existing PostgreSQL database.
+
+## Main financial cards
+
+- Total Family Net Worth.
+- Total Family Assets.
+- Total Family Liabilities.
+- Total Available Cash.
+- Total Bank Balance.
+- Monthly Income.
+- Monthly Expenses.
+- Monthly Savings.
+- Investment Portfolio Value.
+- Emergency Fund Balance.
+
+## Financial calculations
+
+Net Worth:
+
+Total Assets − Total Liabilities.
+
+Monthly Savings:
+
+Total Income − Total Expenses.
+
+Savings Rate:
+
+(Monthly Savings ÷ Monthly Income) × 100.
+
+Asset Growth:
+
+Current Asset Value − Previous Period Asset Value.
+
+Clearly distinguish cash flow from investment valuation.
+
+## Dashboard visualizations
+
+Create:
+
+- Monthly income versus expense chart.
+- Net worth growth chart.
+- Expense category pie chart.
+- Savings trend chart.
+- Investment allocation chart.
+- Asset versus liability chart.
+- Financial goal progress chart.
+- Monthly cash flow chart.
+
+Add:
+
+- Date filters.
+- Monthly, quarterly and annual views.
+- Financial year filters.
+- Family member filters.
+- Account filters.
+
+Provide an empty state when no financial records exist.
+
+Never display fabricated numbers.
+
+---
+
+# 6. FAMILY MANAGEMENT MODULE
+
+Build a complete family financial management system.
+
+## Family members
+
+Support:
+
+- Family administrator.
+- Father.
+- Mother.
+- Spouse.
+- Children.
+- Other family members.
+
+## Features
+
+- Add family members.
+- Edit member information.
+- Assign permissions.
+- Track individual income.
+- Track individual expenses.
+- Track individual savings.
+- View shared family finances.
+- Create individual financial goals.
+- Assign family financial responsibilities.
+- Maintain family financial history.
+
+## Permission levels
+
+Family Owner:
+- Complete system access.
+- Manage members.
+- Manage permissions.
+- View all authorized family records.
+
+Family Administrator:
+- Manage approved financial records.
+- Generate reports.
+- Manage budgets.
+
+Family Member:
+- Access permitted records.
+- Add transactions.
+- View assigned financial information.
+
+Read Only:
+- View permitted information without editing.
+
+Children's accounts must support age-appropriate permissions.
+
+Implement strict family-level data isolation.
+
+---
+
+# 7. INCOME MANAGEMENT
+
+Build a complete income tracking system.
+
+## Income categories
+
+- Monthly salary.
+- Business income.
+- Freelance income.
+- Rental income.
+- Agricultural income.
+- Interest income.
+- Dividend income.
+- Pension.
+- Other income.
+
+## Features
+
+- Add income.
+- Edit income.
+- Delete income with proper confirmation and audit history.
+- Assign income to a family member.
+- Select receiving account.
+- Record income source.
+- Set recurring income.
+- Add notes and attachments.
+- Track expected income.
+- Track received income.
+- View monthly income history.
+
+Generate monthly and annual income reports.
+
+---
+
+# 8. EXPENSE MANAGEMENT
+
+Build a detailed household expense tracking system.
+
+## Expense categories
+
+- Groceries.
+- Food.
+- Electricity.
+- Water.
+- Gas.
+- House rent.
+- Education.
+- Medical.
+- Transportation.
+- Fuel.
+- Mobile recharge.
+- Internet.
+- Insurance.
+- Shopping.
+- Entertainment.
+- Family functions.
+- Travel.
+- EMI.
+- Household maintenance.
+- Other expenses.
+
+## Transaction features
+
+- Add expense.
+- Edit expense.
+- Delete with confirmation.
+- Expense date.
+- Amount.
+- Category.
+- Payment method.
+- Account.
+- Family member.
+- Merchant.
+- Description.
+- Receipt upload.
+- Recurring expense.
+
+## Payment methods
+
+- Cash.
+- UPI.
+- Bank transfer.
+- Debit card.
+- Credit card.
+- Other.
+
+## Advanced functionality
+
+- Daily expense entry.
+- Weekly expense summary.
+- Monthly expense summary.
+- Category-based analysis.
+- Highest spending categories.
+- Unusual spending detection.
+- Budget overspending alerts.
+- Recurring expense identification.
+
+Support manual transaction entry first.
+
+Do not claim automatic UPI or bank synchronization unless a verified integration is actually implemented.
+
+---
+
+# 9. BANK ACCOUNTS AND CASH MANAGEMENT
+
+Support multiple financial accounts.
+
+Account types:
+
+- Savings account.
+- Current account.
+- Salary account.
+- Joint account.
+- Cash wallet.
+- Fixed deposit.
+- Recurring deposit.
+- Other accounts.
+
+Features:
+
+- Account name.
+- Bank name.
+- Account owner.
+- Opening balance.
+- Current balance.
+- Account type.
+- Account status.
+- Transaction history.
+
+Implement account transfers.
+
+Important:
+
+An internal transfer between two family accounts must not be counted as new income or expense.
+
+Prevent duplicate accounting of transfers.
+
+Support account reconciliation and balance correction with audit records.
+
+Never store banking passwords, UPI PINs, ATM PINs or OTPs.
+
+---
+
+# 10. BUDGET MANAGEMENT
+
+Create a flexible family budgeting system.
+
+Features:
+
+- Monthly family budget.
+- Individual member budget.
+- Category-wise budgets.
+- Weekly budgets.
+- Annual budgets.
+- Custom budgets.
+- Planned versus actual spending.
+- Remaining budget.
+- Budget utilization percentage.
+- Overspending warnings.
+
+Allow users to create realistic budgets according to their income.
+
+Provide suggested budget allocations only as optional starting points.
+
+Do not force wealthy-family spending patterns onto middle-class households.
+
+---
+
+# 11. SAVINGS MANAGEMENT
+
+Create a dedicated savings management module.
+
+Features:
+
+- Monthly savings target.
+- Individual savings.
+- Family savings.
+- Short-term savings.
+- Long-term savings.
+- Savings accounts.
+- Savings history.
+- Savings rate.
+- Savings growth.
+- Monthly savings reminders.
+
+Display:
+
+- Target savings.
+- Actual savings.
+- Remaining savings target.
+- Savings percentage.
+- Monthly progress.
+
+Differentiate actual account balances from savings goals to prevent double counting.
+
+---
+
+# 12. EMERGENCY FUND MANAGEMENT
+
+Build an emergency protection module.
+
+Features:
+
+- Monthly essential expenses.
+- Target emergency fund.
+- Current emergency savings.
+- Recommended fund duration.
+- Monthly contribution.
+- Completion percentage.
+- Emergency fund history.
+
+Allow configurable targets such as 3, 6, 9 or 12 months of essential expenses.
+
+Calculate:
+
+Emergency Fund Target = Monthly Essential Expenses × Selected Months.
+
+Display progress and estimated completion date.
+
+---
+
+# 13. ASSET MANAGEMENT
+
+Build a complete family asset register.
+
+Asset categories:
+
+- Residential property.
+- Land.
+- Commercial property.
+- Gold.
+- Silver.
+- Vehicles.
+- Cash.
+- Bank deposits.
+- Business ownership.
+- Other assets.
+
+For each asset record:
+
+- Asset name.
+- Asset category.
+- Owner.
+- Purchase date.
+- Purchase value.
+- Current estimated value.
+- Location or description.
+- Ownership percentage.
+- Related documents.
+- Valuation history.
+
+Calculate total asset value using ownership percentages.
+
+Support joint ownership.
+
+Clearly distinguish estimated market values from verified valuations.
+
+Avoid double counting assets already represented in account or investment records.
+
+---
+
+# 14. INVESTMENT MANAGEMENT
+
+Create a comprehensive investment portfolio tracker.
+
+## Supported investments
+
+- Mutual funds.
+- SIP.
+- Indian stocks.
+- Gold.
+- Silver.
+- Fixed deposits.
+- Recurring deposits.
+- PPF.
+- EPF.
+- NPS.
+- Government securities.
+- Real estate.
+- Other investments.
+
+## Investment records
+
+- Investment name.
+- Investment category.
+- Owner.
+- Purchase date.
+- Invested amount.
+- Units.
+- Purchase price.
+- Current estimated value.
+- Additional contributions.
+- Withdrawals.
+- Investment history.
+
+## Investment analytics
+
+- Total invested capital.
+- Current portfolio value.
+- Unrealized gains and losses.
+- Realized gains and losses where supported.
+- Asset allocation.
+- Investment growth.
+- Investment performance history.
+
+Do not treat deposits, contributions, returns and withdrawals as the same transaction type.
+
+Do not invent live market values.
+
+Use manual valuations unless verified external data integrations are available.
+
+---
+
+# 15. LOANS AND DEBT MANAGEMENT
+
+Build a complete liability and loan tracking system.
+
+Loan categories:
+
+- Home loan.
+- Personal loan.
+- Vehicle loan.
+- Education loan.
+- Gold loan.
+- Business loan.
+- Credit card outstanding.
+- Other liabilities.
+
+For each loan:
+
+- Lender.
+- Loan amount.
+- Outstanding principal.
+- Interest rate.
+- Loan start date.
+- Loan end date.
+- EMI amount.
+- EMI frequency.
+- Next payment date.
+- Repayment history.
+- Remaining tenure.
+
+## Debt repayment planner
+
+Support:
+
+- Snowball method.
+- Avalanche method.
+- Custom repayment strategy.
+
+Calculate estimated:
+
+- Monthly repayment.
+- Remaining principal.
+- Interest cost.
+- Payoff date.
+- Potential interest savings.
+
+Show all estimates with clear assumptions.
+
+---
+
+# 16. FINANCIAL GOALS
+
+Allow families to create multiple financial goals.
+
+Examples:
+
+- Emergency fund.
+- Children's education.
+- House purchase.
+- Vehicle purchase.
+- Marriage.
+- Retirement.
+- Family vacation.
+- Debt freedom.
+- Financial independence.
+- Long-term wealth creation.
+
+Each goal must contain:
+
+- Goal title.
+- Target amount.
+- Current allocated savings.
+- Target date.
+- Priority.
+- Monthly contribution.
+- Progress percentage.
+- Remaining amount.
+- Goal status.
+
+Support goal contributions and withdrawals with proper transaction records.
+
+Display goal progress visually.
+
+---
+
+# 17. FINANCIAL CALCULATORS
+
+Build functional financial calculators.
+
+## A. SIP Calculator
+
+Inputs:
+- Monthly investment.
+- Expected annual return.
+- Investment duration.
+
+Outputs:
+- Total invested amount.
+- Estimated returns.
+- Estimated maturity value.
+
+## B. Compound Interest Calculator
+
+Inputs:
+- Initial investment.
+- Additional contribution.
+- Interest assumption.
+- Duration.
+- Compounding frequency.
+
+## C. Retirement Calculator
+
+Inputs:
+- Current age.
+- Retirement age.
+- Current monthly expenses.
+- Inflation assumption.
+- Expected return assumption.
+- Existing retirement savings.
+
+## D. Financial Freedom Calculator
+
+Calculate estimated financial independence requirements using user-defined annual expenses, inflation and withdrawal assumptions.
+
+Clearly state that projections are not guaranteed.
+
+## E. Emergency Fund Calculator
+
+Calculate target emergency savings.
+
+## F. Home Purchase Calculator
+
+Calculate:
+- Property cost.
+- Down payment.
+- Loan amount.
+- Interest assumption.
+- Estimated EMI.
+- Additional purchase costs.
+
+## G. Loan EMI Calculator
+
+Calculate EMI, total interest and total repayment.
+
+## H. Net Worth Projection Calculator
+
+Project potential wealth over:
+
+- 1 year.
+- 5 years.
+- 10 years.
+- 15 years.
+- 20 years.
+
+Every calculator must be fully functional, validated and tested.
+
+---
+
+# 18. FINANCIAL REPORTS AND ANALYTICS
+
+Create professional financial reports.
+
+Reports:
+
+1. Daily transaction report.
+2. Weekly spending report.
+3. Monthly income report.
+4. Monthly expense report.
+5. Annual financial report.
+6. Family net worth report.
+7. Investment portfolio report.
+8. Loan and debt report.
+9. Savings report.
+10. Budget performance report.
+11. Financial goals report.
+12. Cash flow statement.
+13. Asset and liability statement.
+
+Features:
+
+- Date range selection.
+- Member-wise filtering.
+- Category-wise filtering.
+- Account-wise filtering.
+- Download PDF.
+- Export Excel.
+- Export CSV.
+- Print-friendly reports.
+
+Ensure report calculations reconcile with actual database records.
+
+---
+
+# 19. FINANCIAL INTELLIGENCE
+
+Build an intelligent financial insights engine.
+
+Analyze actual family financial data.
+
+Examples:
+
+- Expenses increased by 12% compared with last month.
+- Grocery spending is the highest expense category.
+- Savings rate improved this quarter.
+- Your emergency fund has reached 60% of its target.
+- Your outstanding loan balance has decreased.
+- Your family is approaching its monthly budget limit.
+
+Insights must be explainable and traceable to source data.
+
+Do not make unsupported financial predictions.
+
+---
+
+# 20. AI FAMILY FINANCIAL ASSISTANT
+
+Build an AI-powered financial assistant.
+
+It must answer questions using authorized database information.
+
+Example questions:
+
+- What is our total family net worth?
+- How much did we spend this month?
+- Which category has the highest expenses?
+- How much did we save this year?
+- How much debt remains?
+- What is our total investment value?
+- How much do we need to save for our emergency fund?
+- Are we spending more than we earn?
+- Show our last six months of expenses.
+- How much is remaining for our house goal?
+- Compare our income and expenses.
+
+Requirements:
+
+- Use real database records.
+- Respect family permissions.
+- Never fabricate transactions.
+- Distinguish historical facts from estimates.
+- Explain calculation assumptions.
+- Do not expose another family's data.
+- Do not make unauthorized transactions.
+- Require user confirmation before any consequential financial action.
+
+The assistant should provide educational financial guidance, not claim to be a licensed financial advisor.
+
+---
+
+# 21. BILL MANAGEMENT AND SMART REMINDERS
+
+Create a reminder system for:
+
+- Electricity bills.
+- Water bills.
+- Gas bills.
+- Rent.
+- School fees.
+- Insurance premiums.
+- Loan EMIs.
+- Credit card bills.
+- SIP contributions.
+- Recurring deposits.
+- Investment maturity.
+- Tax deadlines.
+
+Support:
+
+- Due date.
+- Amount.
+- Frequency.
+- Reminder schedule.
+- Payment status.
+- Paid date.
+- Notification history.
+
+Provide dashboard alerts and optional email or push notifications through verified integrations.
+
+---
+
+# 22. DOCUMENT MANAGEMENT
+
+Allow users to store important financial documents.
+
+Examples:
+
+- Bank statements.
+- Insurance policies.
+- Property documents.
+- Loan agreements.
+- Investment statements.
+- Tax documents.
+- Receipts.
+- Financial certificates.
+
+Features:
+
+- Secure file upload.
+- Document categories.
+- Search.
+- Document ownership.
+- Expiry reminders.
+- Access permissions.
+
+Use secure file storage.
+
+Do not expose private documents through public URLs.
+
+---
+
+# 23. INDIAN FINANCIAL SUPPORT
+
+Design the platform primarily for Indian families.
+
+Requirements:
+
+- Indian Rupee (₹).
+- Indian number formatting.
+- DD-MM-YYYY date display.
+- Indian financial year (April–March).
+- UPI as a manual payment category.
+- Indian bank account records.
+- Indian mutual funds.
+- Indian stocks.
+- SIP tracking.
+- PPF.
+- EPF.
+- NPS.
+- Fixed deposits.
+- Recurring deposits.
+- Indian loan tracking.
+- GST-related expense tagging where applicable.
+- Income tax document tracking.
+
+Support English initially, with architecture ready for Tamil and other Indian languages.
+
+Do not claim tax compliance or regulatory compliance without implementing and verifying the relevant requirements.
+
+---
+
+# 24. PREMIUM UI/UX DESIGN
+
+Create a professional financial technology interface.
+
+## Design identity
+
+Application name: FAMILY WEALTH OS.
+
+Visual direction:
+- Premium dark navy.
+- Gold accents.
+- White and light backgrounds where appropriate.
+- Clean financial cards.
+- Professional charts.
+- Modern typography.
+- Consistent spacing.
+- Clear visual hierarchy.
+
+Provide light mode and dark mode.
+
+## Design requirements
+
+- Responsive desktop layout.
+- Responsive tablet layout.
+- Responsive mobile layout.
+- Simple navigation.
+- Fast data entry.
+- Accessible forms.
+- Helpful empty states.
+- Loading indicators.
+- Error states.
+- Success confirmations.
+- Search and filters.
+- Consistent design components.
+
+Do not overload the interface with unnecessary animations or decorative elements.
+
+Prioritize usability for non-technical family members.
+
+---
+
+# 25. DATABASE ARCHITECTURE
+
+Continue using the existing PostgreSQL database.
+
+Inspect the current schema before creating migrations.
+
+Create or update appropriate tables for:
+
+- users
+- families
+- family_members
+- roles
+- permissions
+- financial_accounts
+- account_balances
+- transactions
+- income_records
+- expense_categories
+- budgets
+- budget_allocations
+- savings_goals
+- savings_contributions
+- emergency_funds
+- assets
+- asset_valuations
+- investments
+- investment_transactions
+- liabilities
+- loans
+- loan_repayments
+- financial_goals
+- goal_contributions
+- recurring_transactions
+- bills
+- reminders
+- notifications
+- documents
+- financial_reports
+- audit_logs
+- application_settings
+
+These are proposed logical structures, not instructions to duplicate existing tables blindly.
+
+Database requirements:
+
+- Proper primary keys.
+- Foreign keys.
+- Unique constraints.
+- Appropriate indexes.
+- Decimal precision for financial values.
+- Transaction-safe operations.
+- Referential integrity.
+- Migration versioning.
+- Family-level data isolation.
+- Audit history.
+- Backup and recovery.
+
+Use NUMERIC/DECIMAL for monetary values. Never use floating-point types for authoritative financial calculations.
+
+Store timestamps consistently and display them in the user's configured timezone.
+
+Use database transactions for transfers, repayments and other multi-record financial operations.
+
+---
+
+# 26. FINANCIAL DATA INTEGRITY
+
+This is a critical requirement.
+
+Implement reliable accounting rules.
+
+1. Every financial transaction must have a clear type.
+2. Transfers must not inflate income or expenses.
+3. Investment purchases must not be counted as household consumption expenses in net worth calculations.
+4. Loan repayments must distinguish principal and interest.
+5. Asset purchases must not cause duplicate asset accounting.
+6. Credit card purchases and repayments must not be double counted.
+7. Joint assets must respect ownership percentages.
+8. Savings goals must not be counted as additional assets on top of their underlying bank balances.
+9. Account balances must reconcile with transaction history.
+10. Historical records must remain auditable.
+
+Define and document a consistent accounting model before implementing reports.
+
+---
+
+# 27. SECURITY AND PRIVACY
+
+Implement production-grade security practices.
+
+- Secure password hashing.
+- Authentication.
+- Role-based access control.
+- Family-level authorization.
+- API validation.
+- Secure session management.
+- CSRF protection where applicable.
+- XSS prevention.
+- SQL injection protection.
+- Rate limiting.
+- Secure document access.
+- Sensitive data encryption where appropriate.
+- Audit logging.
+- Backup policies.
+- Secure environment variable management.
+
+Never expose:
+- Passwords.
+- OTPs.
+- UPI PINs.
+- ATM PINs.
+- Banking credentials.
+- Secret API keys.
+
+Every API must verify that the authenticated user has permission to access the requested family and record.
+
+---
+
+# 28. PERFORMANCE AND RELIABILITY
+
+Requirements:
+
+- Optimized database queries.
+- Pagination for large transaction histories.
+- Efficient dashboard aggregation.
+- Caching where appropriate.
+- Background processing for reports where necessary.
+- Proper error handling.
+- Logging and monitoring.
+- Reliable database connections.
+- No unnecessary duplicate API calls.
+- No blocking operations on the main UI.
+
+The application must remain responsive as family records grow over multiple years.
+
+---
+
+# 29. TESTING AND QUALITY ASSURANCE
+
+Conduct complete testing.
+
+## Functional testing
+
+Test:
+- Authentication.
+- Family creation.
+- Member permissions.
+- Income entry.
+- Expense entry.
+- Account management.
+- Transfers.
+- Budget calculations.
+- Savings calculations.
+- Asset tracking.
+- Investment tracking.
+- Loan tracking.
+- Financial goals.
+- Reports.
+- Calculators.
+- Notifications.
+- AI assistant.
+
+## Financial calculation testing
+
+Verify:
+- Net worth.
+- Total assets.
+- Total liabilities.
+- Account balances.
+- Monthly cash flow.
+- Savings percentage.
+- EMI.
+- Compound interest.
+- Investment estimates.
+- Budget utilization.
+- Goal progress.
+
+## Security testing
+
+Verify:
+- Unauthorized access prevention.
+- Family data isolation.
+- Role permissions.
+- API security.
+- Document access.
+- Input validation.
+
+## Database testing
+
+Verify:
+- PostgreSQL connectivity.
+- Migration execution.
+- Foreign key integrity.
+- Transaction consistency.
+- Backup and restore.
+- Data preservation.
+
+## UI testing
+
+Verify:
+- Desktop.
+- Tablet.
+- Mobile.
+- Forms.
+- Navigation.
+- Charts.
+- Filters.
+- Loading states.
+- Error states.
+- Empty states.
+
+Do not claim a test passed unless it was actually executed.
+
+---
+
+# 30. TRANSFORMATION RULES
+
+These instructions are mandatory.
+
+1. Do not rebuild the project from scratch.
+2. Do not replace the real PostgreSQL database with mock data.
+3. Do not delete existing completed features without review.
+4. Do not destroy existing financial records.
+5. Do not break existing authentication.
+6. Do not invent successful database connections.
+7. Do not use fabricated financial data in production.
+8. Do not implement non-functional buttons.
+9. Do not leave placeholder pages pretending to be complete.
+10. Do not hardcode financial calculations.
+11. Do not expose private family data.
+12. Do not remove reusable existing code unnecessarily.
+13. Do not introduce breaking migrations without a rollback strategy.
+14. Do not claim completion without testing.
+
+Preserve existing functionality whenever possible.
+
+Back up data before structural changes.
+
+Use safe, reversible migrations.
+
+---
+
+# 31. IMPLEMENTATION PHASES
+
+Work in the following order.
+
+### PHASE 1 — AUDIT
+
+Inspect the complete existing project.
+
+Document the architecture, database, authentication, existing functionality and technical risks.
+
+### PHASE 2 — FOUNDATION
+
+Establish the family structure, authorization, financial data model and database migration strategy.
+
+### PHASE 3 — CORE FINANCIAL MANAGEMENT
+
+Implement:
+- Dashboard.
+- Income.
+- Expenses.
+- Transactions.
+- Bank accounts.
+- Budgets.
+- Savings.
+
+### PHASE 4 — WEALTH MANAGEMENT
+
+Implement:
+- Emergency fund.
+- Assets.
+- Investments.
+- Loans.
+- Liabilities.
+- Financial goals.
+
+### PHASE 5 — FINANCIAL INTELLIGENCE
+
+Implement:
+- Reports.
+- Analytics.
+- Financial calculators.
+- Wealth projections.
+- Financial insights.
+
+### PHASE 6 — AUTOMATION
+
+Implement:
+- Reminders.
+- Notifications.
+- Recurring transactions.
+- Document management.
+- AI financial assistant.
+
+### PHASE 7 — SECURITY AND TESTING
+
+Perform complete security, database, functional and financial calculation tests.
+
+### PHASE 8 — FINAL PRODUCTION AUDIT
+
+Verify the complete application.
+
+Fix actual defects.
+
+Document any remaining limitations.
+
+---
+
+# 32. FINAL ACCEPTANCE CRITERIA
+
+The project is complete only when:
+
+- All core financial modules work.
+- All financial records are stored in PostgreSQL.
+- Family permissions work correctly.
+- Net worth calculations are accurate.
+- Income and expense tracking work.
+- Account transfers reconcile.
+- Budgets and savings work.
+- Assets and investments are tracked.
+- Loans and EMIs work.
+- Financial goals work.
+- Reports use real data.
+- Calculators produce verified results.
+- Dashboard figures match database records.
+- AI answers use authorized real records.
+- Mobile and desktop interfaces work.
+- Security checks pass.
+- Existing data remains preserved.
+- Database backups are available.
+- No critical errors remain.
+
+---
+
+# 33. FINAL DEVELOPMENT INSTRUCTION
+
+Start by auditing the EXISTING FAMILY BUSINESS OS project.
+
+Do not stop after presenting a plan.
+
+After the audit, implement the transformation in controlled phases using the actual existing source code and PostgreSQL database.
+
+Work on real application functionality, not screenshots or mockups.
+
+For every phase:
+
+1. Inspect existing implementation.
+2. Identify required changes.
+3. Implement the changes.
+4. Run relevant tests.
+5. Fix discovered errors.
+6. Verify database integrity.
+7. Document completed work.
+8. Proceed to the next phase.
+
+If an essential integration, credential or external service is unavailable, explain the limitation and implement a safe alternative without pretending that the integration is active.
+
+If a migration or destructive operation could affect existing records, stop that operation until a safe backup and migration strategy is established.
+
+At completion, provide a detailed audit report containing:
+
+- Features completed.
+- Features retained.
+- Features migrated.
+- Database changes.
+- Migrations executed.
+- Tests executed and results.
+- Security findings.
+- Remaining limitations.
+- Deployment readiness.
+- Backup and recovery status.
+
+# FINAL MISSION
+
+Build FAMILY WEALTH OS into a reliable, secure, intelligent and easy-to-use financial management platform for ordinary Indian families.
+
+It must help a family earning ₹20,000 per month make better financial decisions just as effectively as a family earning ₹2,00,000 per month.
+
+The goal is not simply to track money.
+
+The goal is to give every family control over its financial future.
+
+**FAMILY WEALTH OS — MANAGE MONEY. BUILD ASSETS. PROTECT FAMILY. CREATE GENERATIONAL WEALTH.**
